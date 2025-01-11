@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Home - Mahjoubi Ahmed</title>
+     <link rel="stylesheet" href="styles.css">
+     <link rel="icon" href="assets/icons/ma.png">
+     <style>
+          /* Animation pour faire entrer depuis la droite */
+          @keyframes slideInFromRight {
+               from {
+                    transform: translateX(-100%);
+                    opacity: 0;
+               }
+               to {
+                    transform: translateX(0);
+                    opacity: 1;
+               }
+          }
+          .animated-right {
+               animation: slideInFromRight 1.8s ease-out;
+          }
+     </style>
+</head>
+
+<body>
+     <!-- ==HEADER== -->
+     <header class="header animated-right" id="header">
+          <input class="hamburger" type="checkbox" aria-label="Ouvrir menu" id="containerButton">
+          <label class="containerButton" for="containerButton"><span></span></label>
+
+          <nav class="navigation">
+               <ul>
+                    <a href="#aPropos" class="linkNav">
+                         <li class="list">À propos de moi</li>
+                    </a>
+                    <a href="#formation" class="linkNav">
+                         <li class="list">Formation</li>
+                    </a>
+                    <a href="#expPro" class="linkNav">
+                         <li class="list">Expériences</li>
+                    </a>
+                    <a href="#compétenes" class="linkNav">
+                         <li class="list">Compétences</li>
+                    </a>
+                    <a href="#mesProjet" class="linkNav">
+                         <li class="list">Projets</li>
+                    </a>
+                    <a href="#divers" class="linkNav">
+                         <li class="list">Divers</li>
+                    </a>
+                    <a href="#cv" class="linkNav">
+                         <li class="list">C.V</li>
+                    </a>
+                    <a href="#meContacter" class="linkNav">
+                         <li class="list">Contact</li>
+                    </a>
+               </ul>
+          </nav>
+          <img class="logo" src="assets/icons/ma.png" alt="logo avec la lettre MA">
+     </header>
+     <!-- ==FIN HEADER== -->
+
+     <!-- ==SECTION1 - A propos== -->
+     <section class="section" id="aPropos">
+          <!-- =MAIN TITLE= -->
+          <div class="title animated-right">
+               <h1 class="textTitle">À propos de moi</h1>
+               <hr class="line">
+          </div>
+          <!-- =FIN MAIN TITLE= -->
+
+          <!-- =SECTION1 - Contenu -->
+          <div class="sec1Container1">
+               <div class="left animated-right">
+                    <div class="lfTextTitle">
+                         <p class="lfTitle">Je suis Mahjoubi Ahmed</p>
+                         <p class="lfTitleSecond">Étudiant en premère année de BUT Réseaux et Télécommunications </p>
+                    </div>
+
+                    <p class="lfTextPara">J’ai 19 ans. Je viens de la Tunisie, où j’ai 
+                         obtenu mon baccalauréat en mathématiques.
+                    </p>
+
+                    <p class="lfTextPara"> 
+                          Depuis longtemps passionné par les <strong>réseaux</strong>, j’ai réalisé une recherche sur l’optimisation des protocoles de routage. En approfondissant, j’ai découvert que ces protocoles pouvaient être vulnérables aux attaques. Cette prise de conscience m’a conduit à m’intéresser à la <strong>cybersécurité</strong> et à comprendre l’importance de protéger les réseaux contre de telles menaces.</p>
+
+                    <p class="lfTextPara">Créatif et doté d’un esprit d’équipe et d'une capacité d’adaptation,
+                         je suis à la recherche d’une <strong>alternance</strong> pour l'année de <strong>2025-2026</strong>, débutant en septembre, sur un
+                         rythme  de 1 mois/1 mois pour mettre en pratique mes compétences 
+                         et acquérir de nouvelles expériences.
+                    </p>
+               </div>
+
+               <div class="right animated-right">
+                    <img class="rgImg" src="assets/images/profile-pic.png" alt="photo de mahjoubi ahmed">
+               </div>
+          </div>
+          <!-- =FIN SECTION1 - Contenu -->
+     </section>
+     <!-- ==FIN SECTION1 - A propos== -->
+
+     <!-- ==SECTION2 - formation== -->
+     <section class="section" id="formation">
+
+          <!-- =MAIN TITLE= -->
+          <div class="title">
+               <h1 class="textTitle">Formation</h1>
+               <hr class="line">
+          </div>
+          <!-- =FIN MAIN TITLE= -->
+
+          <!-- =FORMATION= -->
+          <div class="containerFormations">
+               <div class="formation">
+                   <div class="informations">
+                       <div class="informationTexte">
+                           <h2 class="informationTexteTitle">IUT Clermont Auvergne | Clermont-Ferrand (63) | 2024 - Présent</h2>
+                           <p class="informationTexteParagraphe">
+                              Actuellement en première année de <strong>BUT</strong> (Bachelor Universitaire de Technologie) <strong>Réseaux et Télécommunications</strong>, je me prépare à intégrer le parcours <strong>cybersécurité</strong> proposé dès la deuxième année. Nous y apprenons à concevoir, installer,
+                               sécuriser, et administrer des infrastructures réseau, en utilisant des équipements et logiciels modernes.
+                           </p>
+                       </div>
+                       <div class="right">
+                           <img class="rgImg small-img" src="assets/images/iut.jpg" alt="photo de l'IUT">
+                       </div>
+                   </div>
+               </div>
+           
+               <div class="formation">
+                   <div class="informations">
+                       <div class="informationTexte">
+                           <h2 class="informationTexteTitle">Lycée El Alia | Bizerte - Tunisie | 2024</h2>
+                           <p class="informationTexteParagraphe">
+                               J’ai obtenu mon baccalauréat en <strong>mathématiques</strong>, une spécialité axée sur les mathématiques,
+                                la physique et la chimie et reconnu pour sa rigueur.
+                           </p>
+                       </div>
+                       <div class="right">
+                           <img class="rgImg small-img" src="assets/images/lycee.jpg" alt="photo du lycée">
+                       </div>
+                   </div>
+               </div>
+           </div>
+           
+          <!-- =FIN FORMATION= -->
+
+     </section>
+     <!-- ==FIN SECTION2 - formation== -->
+
+     <!-- ==SECTION 3 - Exp Pro== -->
+     <section class="section" id="expPro">
+          <!-- =MAIN TITLE= -->
+          <div class="title">
+               <h1 class="textTitle">Mes Expériences Professionnelles</h1>
+               <hr class="line">
+          </div>
+          <!-- =FIN MAIN TITLE= -->
+
+          <!-- =BLOCK EXP PRO= -->
+          <div class="expPro">
+               <img src="assets/images/rgis.jpeg" alt="image de RGIS" class="left">
+               <div class="right">
+                    <!-- =SECOND TITLE= -->
+                    <div class="ssTitle">
+                         <h1 class="textTitle">Inventoriste - RGIS </h1>
+                         <hr class="line">
+                    </div>
+                    <!-- =FIN SECOND TITLE= -->
+
+                    <div class="expProRightTextContainer">
+                         <p class="expProRightText">
+                              Fin 2024, je décide d'élargir mes compétences en gestion d'inventaire tout en finançant mes études, en
+                              rejoignant <strong>RGIS</strong> en tant qu'inventoriste. 
+                              <strong>RGIS</strong> est une entreprise spécialisée dans la réalisation d'inventaires pour des grandes 
+                              surfaces et magasins à travers le monde, où la <strong>précision</strong> et l'<strong>efficacité</strong> sont au cœur 
+                              de leurs activités. 
+                         </p>
+                         <p class="expProRightText">
+                              Dès mes premières missions, j'ai appris à travailler <strong>rapidement</strong> et <strong>méthodiquement</strong> pour 
+                              effectuer des inventaires <strong>précis</strong>. Mon rôle consistait à compter et saisir des données 
+                              de stock tout en maintenant des <strong>performances élevées</strong>, mes résultats étant évalués à 
+                              chaque intervention.
+                         </p>
+                         <p class="expProRightText">
+                              Cette expérience m'a permis de renforcer mes compétences en <strong>travail d'équipe</strong> et en <strong>communication</strong>,
+                              en collaborant avec des collègues pour atteindre des objectifs communs. Elle m'a également 
+                              aidé à développer ma <strong>gestion du stress</strong> dans un environnement où la précision et les délais 
+                              sont cruciaux. <br> 
+                         </p>
+                    </div>
+               </div>
+          </div>
+          <div class="expPro">
+               <div class="right">
+                    <!-- =SECOND TITLE= -->
+                    <div class="ssTitle">
+                         <h1 class="textTitle">Bénévole - Croissant Rouge Tunisien</h1>
+                         <hr class="line">
+                    </div>
+                    <!-- =FIN SECOND TITLE= -->
+
+                    <div class="expProRightTextContainer">
+                         <p class="expProRightText">
+                              En 2023, j’ai décidé de m’investir dans des actions humanitaires en rejoignant le 
+                              <strong>Croissant Rouge Tunisien</strong> en tant que bénévole. Le <strong>Croissant Rouge</strong> est une organisation
+                              internationale qui aide les personnes en situation de précarité à travers diverses 
+                              initiatives sociales et humanitaires.
+                         </p>
+                         <p class="expProRightText">
+                              Durant cette période, j’ai participé à l’organisation et à la coordination des événements
+                              comme <strong>« Le Couffin de Ramadan »</strong>, où j'ai collecté et distribué des dons aux familles
+                              dans le besoin. Mon rôle nécessitait une collaboration étroite avec d’autres bénévoles et
+                              une <strong>communication efficace</strong> avec les donateurs et les bénéficiaires pour assurer le succès
+                              des opérations.
+                         </p>
+                         <p class="expProRightText">
+                              Cette expérience m’a permis de renforcer mes compétences en <strong>communication</strong> et en <strong>travail 
+                              d’équipe</strong>, tout en développant mon sens des <strong>responsabilités</strong> et ma capacité à gérer des
+                              situations délicates. <br> Bien que cette activité soit bénévole, elle a eu un impact
+                              significatif sur mes compétences humaines et mon engagement social. 
+                         </p>
+                    </div>
+               </div>
+               <img src="assets/images/crt.png" alt="crt" class="left">
+          </div>
+          
+          <!-- =FIN BLOCK EXP PRO=  -->
+     </section>
+     <!-- ==FIN SETION 3 - Exp Pro== -->
+
+     <!-- ==SECTION 4 - Compétences -->
+     <section class="section" id="compétenes">
+          <!-- =MAIN TITLE= -->
+          <div class="title">
+               <h1 class="textTitle">Mes compétences</h1>
+               <hr class="line">
+          </div>
+          <!-- =FIN MAIN TITLE= -->
+
+          <!-- =SECOND TITLE= -->
+          <div class="ssTitle">
+               <h2 class="textTitle">Humaines</h2>
+               <hr class="line">
+          </div>
+          <!-- =FIN SECOND TITLE= -->
+
+          <!-- =CONTAINER QUALITÉ= -->
+          <div class="containerQualité">
+               <!-- LIGNE 1 -->
+               <div class="lg1">
+                    <div class="card">
+                         <img class="cdIcon" src="assets/icons/com.png" alt="icon">
+                         <div class="cdText">
+                              <p class="cdTitle">Communication</p>
+                              <p class="cdPara">Dans le cadre de mon rôle de bénévole au sein du Croissant 
+                                   Rouge Tunisien, j’ai géré la <strong>communication</strong> avec les donateurs, ce qui 
+                                   m’a permis de perfectionner ma capacité à maintenir des échanges <strong>efficaces</strong>
+                                   grâce à une <strong>communication fluide et ciblée</strong>.
+                              </p>
+                         </div>
+                    </div>
+                    <div class="card">
+                         <img class="cdIcon" src="assets/icons/leader.png" alt="icon">
+                         <div class="cdText">
+                              <p class="cdTitle">Leadership</p>
+                              <p class="cdPara">En tant qu'ancien capitaine de football au club <strong>El Alia Sport</strong>,
+                                   j'ai guidé mon équipe en prenant des décisions stratégiques pendant les matchs.
+                                   Cette expérience m'a appris à <strong>gérer la pression</strong>, à encourager <strong>l'esprit d'équipe</strong>
+                                   et à <strong>diriger</strong> avec empathie.</p>
+                         </div>
+                    </div>
+                    <div class="card">
+                         <img class="cdIcon" src="assets/icons/cre.png" alt="icon">
+                         <div class="cdText">
+                              <p class="cdTitle">Créativité</p>
+                              <p class="cdPara">En réalisant un portfolio <strong>captivant</strong> et <strong>interactif</strong>, j'ai su mettre en valeur mes compétences de manière originale et <strong>innovante</strong>. 
+                                   Ce projet reflète ma capacité à allier <strong>esthétique</strong>, structure et <strong>créativité</strong> pour un résultat impactant.
+                              </p>
+                         </div>
+                    </div>
+               </div>
+               <!-- FIN LIGNE 1 -->
+
+               <!-- LIGNE 2 -->
+               <div class="lg2">
+                    <div class="card">
+                         <img class="cdIcon" src="assets/icons/equipe.png" alt="icon">
+                         <div class="cdText">
+                              <p class="cdTitle">Esprit d'équipe</p>
+                              <p class="cdPara">En tant qu'ancien bénévole au sein du <strong>Croissant 
+                                   Rouge Tunisien</strong>, j’ai collaboré étroitement avec une équipe
+                                   pour organiser et coordonner des actions humanitaires,
+                                   ce qui m’a permis de renforcer mon <strong>esprit d’équipe</strong> et 
+                                   de développer des compétences solides en <strong>coopération</strong>.</p>
+                         </div>
+                    </div>
+                    <div class="card">
+                         <img class="cdIcon" src="assets/icons/ada.png" alt="icon">
+                         <div class="cdText">
+                              <p class="cdTitle">Adaptabilité</p>
+                              <p class="cdPara">Arrivé en France en septembre 2024, je me suis rapidement
+                                   <strong>adapté</strong> à un environnement différent de celui de mon pays
+                                   d'origine. En m'intégrant à la vie quotidienne, j'ai développé une forte
+                                   <strong>capacité d'adaptation</strong> et me suis fait de nombreux amis, facilitant ainsi
+                                   mon intégration.</p>
+                         </div>
+                    </div>
+                    <div class="card">
+                         <img class="cdIcon" src="assets/icons/stress.png" alt="icon">
+                         <div class="cdText">
+                              <p class="cdTitle">Gestion de stress</p>
+                              <p class="cdPara">J'ai assuré la réalisation d'inventaires
+                                   <strong>précis</strong> dans des grandes surfaces, en comptant <strong>rapidement</strong>
+                                   et <strong>méthodiquement</strong> pour maintenir des <strong>performances élevées</strong>,
+                                   ce qui m'a permis de développer ma <strong>gestion du stress</strong> face aux exigences de
+                                   performance.</p>
+                         </div>
+                    </div>
+               </div>
+               <!-- FIN LIGNE 2 -->
+          </div>
+          <!-- =FIN CONTAINER QUALITÉ= -->
+
+          <!-- =SECOND TITLE= -->
+          <div class="ssTitle">
+               <h2 class="textTitle">Techniques</h2>
+               <hr class="line">
+          </div>
+          <!-- =FIN SECOND TITLE= -->
+     </section>
+     <!-- ==FIN SECTION 4 - Compétences -->
+
+     <section id="competences">
+          <div class="competences-container">
+              <!-- Compétence Réseaux -->
+              <div class="competence" onclick="toggleDescription('networks-description')">
+                  <h3><strong>Réseaux</strong></h3>
+                  <div class="gauge-container">
+                      <div class="gauge" data-percent="75">
+                          <span class="percent">75%</span>
+                      </div>
+                  </div>
+                  <div class="description" id="networks-description">
+                      <div style="display: flex; align-items: center;">
+                          <p style="margin-right: 15px;">
+                              En réseaux, grâce à mes travaux dirigés (TD), j'ai développé une expertise en configuration de<strong>réseaux 
+                              informatiques</strong> . J'ai utilisé <strong>Cisco Packet Tracer</strong>, un outil de simulation puissant, pour créer et tester 
+                              des réseaux virtuels, comprenant le fonctionnement des équipements tels que les <strong>PC, serveurs, switchs et 
+                              routeurs</strong>. J'ai configuré un réseau composé de deux sous-réseaux : 192.168.1.0/24 et 192.168.2.0/24. J'ai 
+                              attribué <strong>des adresses IP</strong> statiques, défini <strong>les masques</strong> de sous-réseau et configuré <strong>les passerelles</strong> par défaut, 
+                              ce qui peut être comparé à une carte routière : les adresses IP sont les maisons, les masques définissent les 
+                              quartiers, et la passerelle est la route pour accéder aux différentes zones. Des tests de connectivité, tels que <strong>des pings</strong>, 
+                              ont été effectués pour vérifier la communication entre les appareils. Des échanges de trames ARP ont été observés, 
+                              nécessaires pour associer les adresses IP aux adresses MAC correspondantes. Cependant, j'ai rencontré quelques difficultés, 
+                              notamment des erreurs dans l'attribution des adresses IP. J'ai résolu ces problèmes en ajustant les plages d'adresses IP 
+                              et en vérifiant les paramètres de masque de sous-réseau et passerelle. Ces défis m'ont permis de développer mes compétences 
+                              en <strong>résolution de problèmes</strong> et en <strong>adaptation</strong> face à des situations complexes.
+                         </p>
+                          <div style="flex-direction: column;">
+                              <img class="crt" src="assets/images/cisco.png" alt="Cisco Packet Tracer" style="width: 700px; height: 100px;">
+                              <img class="crt" src="assets/images/res.jpg" alt="Network Exploration" style="width: 800px; height: 100px;">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+      
+             <!-- Compétence Télécommunications -->
+<div class="competence" onclick="toggleDescription('telecommunications-description')">
+     <h3><strong>Télécommunications</strong></h3>
+     <div class="gauge-container">
+         <div class="gauge" data-percent="85">
+             <span class="percent">85%</span>
+         </div>
+     </div>
+     <div class="description" id="telecommunications-description">
+         <div style="display: flex; align-items: center;">
+             <p style="margin-right: 15px;">
+                 <strong>Utilisation de GBF (Générateur de Basses Fréquences)</strong>
+                 <br>Lors des TP de télécommunications, j'ai développé des compétences dans l'utilisation de GBF, tels que le modèle RIGOL. J'ai appris à générer un ou plusieurs signaux avec des amplitudes et des fréquences différentes, tout en exploitant diverses fonctions, comme le réglage de l'impédance.
+                 
+                 <br><br><strong>Utilisation de l'Oscilloscope</strong>
+                 <br>Toujours dans le cadre des TP de télécommunications, j'ai appris à manipuler des oscilloscopes (Keysight). Ces outils m'ont permis d'observer un ou plusieurs signaux simultanément afin d'en extraire des informations telles que l'amplitude et la fréquence. J'ai également appris à régler les échelles horizontales et verticales.
+                 
+                 <br><br><strong>Analyse de Signaux</strong>
+                 <br>Lors des TD et TP, j'ai approfondi mes compétences en analyse de signaux électriques. J'ai manipulé des oscilloscopes et des générateurs de basses fréquences pour observer des signaux dans divers contextes, comme ceux des canaux TNT ou des signaux au sein d'une paire torsadée d'un câble Ethernet. J'ai aussi appris à comprendre des notions liées aux câbles de fibre optique et aux câbles à paires torsadées.
+             </p>
+             <div style="flex-direction: column;">
+                 <img class="crt" src="assets/images/tel.png" alt="Télécommunications" style="width: 900px; height: 280px;">
+             </div>
+         </div>
+     </div>
+ </div>
+ 
+      <!-- Compétence Programmation -->
+<div class="competence" onclick="toggleDescription('programming-description')">
+     <h3><strong>Programmation</strong></h3>
+     <div class="gauge-container">
+         <div class="gauge" data-percent="90">
+             <span class="percent">90%</span>
+         </div>
+     </div>
+     <div class="description" id="programming-description">
+         <div style="display: flex; align-items: center;">
+             <p style="margin-right: 15px;">
+                 <strong>Programmation en Python</strong>
+                 <br>Au fil de mes nombreux TP, j'ai développé de solides compétences en programmation <strong>Python</strong>. J'ai réalisé une série d'exercices portant sur les fondamentaux du langage, tels que les variables, les boucles, les conditions, les fonctions, les modules et les listes. Ces exercices m'ont également appris à respecter les bonnes pratiques de programmation afin de garantir la lisibilité et la maintenabilité du code pour tout autre développeur.
+                 
+                 <br><br>En parallèle, j'ai découvert la Programmation Orientée Objet <strong>(POO)</strong>, une approche qui m'a permis de structurer mes programmes de manière plus efficace et modulable, tout en améliorant mes capacités à concevoir des solutions complexes.
+                 
+                 <br><br><strong>Programmation Web</strong>
+                 <br>Dans le cadre de mon BUT, j'ai considérablement renforcé mes compétences en programmation web grâce à des projets concrets, tels que la réalisation de ce portfolio. Ces projets m'ont permis de maîtriser des langages comme <strong>HTML et CSS</strong>, me donnant ainsi la possibilité de créer des interfaces web attractives et fonctionnelles.
+             </p>
+             <div style="flex-direction: column;">
+                 <img class="crt" src="assets/images/prog.png" alt="Programmation" style="width: 600px; height: 250px;">
+             </div>
+         </div>
+     </div>
+ </div>
+ 
+      
+             <!-- Compétence Système -->
+<div class="competence" onclick="toggleDescription('system-description')">
+     <h3><strong>Système</strong></h3>
+     <div class="gauge-container">
+         <div class="gauge" data-percent="70">
+             <span class="percent">70%</span>
+         </div>
+     </div>
+     <div class="description" id="system-description">
+         <div style="display: flex; align-items: center;">
+             <p style="margin-right: 15px;">
+                 <strong>Installer des machines virtuelles</strong><br>
+                 Grâce à mes nombreux TD et TP, j'ai développé une expertise dans l'installation, la configuration, l'administration et la gestion de machines virtuelles à l'aide de <strong>VMware</strong>.<br><br>
+                 <strong>Utilisation de commandes et scripts Linux</strong><br>
+                 Les nombreuses séances de TD et TP m'ont également permis d'acquérir des compétences en commandes Linux et en scripting <strong>BASH</strong>.
+                 J'ai pratiqué sur le terminal pour effectuer des tâches comme lister, modifier, créer ou supprimer des fichiers, et j'ai découvert comment automatiser ces opérations à l'aide de <strong>scripts</strong>.<br><br>
+                 Ces expériences m'ont permis de comprendre le fonctionnement des systèmes d'exploitation et d'acquérir des connaissances approfondies sur la gestion des données et leur traitement.
+             </p>
+             <div style="flex-direction: column;">
+                 <img class="crt" src="assets/images/sys.png" alt="Systèmes" style="width: 500px; height: 150px;">
+             </div>
+         </div>
+     </div>
+ </div>
+ 
+      
+              <!-- Compétences Téléphonie -->
+              <div class="competence" onclick="toggleDescription('telephony-description')">
+                  <h3><strong>Téléphonie</strong></h3>
+                  <div class="gauge-container">
+                      <div class="gauge" data-percent="0">
+                          <span class="percent">0%</span>
+                      </div>
+                  </div>
+                  <div class="description" id="telephony-description">
+                      <p>Cette compétence sera étudiée à partir du deuxième semestre de la première année du BUT Réseaux et Télécommunications.</p>
+                  </div>
+              </div>
+      
+              <!-- Compétences Sécurité -->
+              <div class="competence" onclick="toggleDescription('security-description')">
+                  <h3><strong>Sécurité</strong></h3>
+                  <div class="gauge-container">
+                      <div class="gauge" data-percent="0">
+                          <span class="percent">0%</span>
+                      </div>
+                  </div>
+                  <div class="description" id="security-description">
+                      <p>Cette compétence sera étudiée à partir de la deuxième année du BUT Réseaux et Télécommunications.</p>
+                  </div>
+              </div>
+      
+              <!-- Compétence Langues -->
+<div class="competence" onclick="toggleDescription('languages-description')">
+     <h3><strong>Langues</strong></h3>
+     <div class="description" id="languages-description">
+         <div style="display: flex; align-items: center;">
+             <p style="margin-right: 15px;">
+                 <strong>Arabe</strong><br>
+                 En tant que Tunisien, l’arabe est ma langue <strong>maternelle</strong>, et elle est profondément ancrée dans ma culture et mon quotidien.<br><br>
+                 <strong>Français</strong><br>
+                 J’ai commencé à apprendre le français dès l’âge de 8 ans, et j’ai continué à perfectionner cette langue tout au long de ma scolarité. Depuis mon arrivée en France en septembre 2024, j’ai amélioré mes compétences en le pratiquant quotidiennement, ce qui me permet de le parler <strong>couramment</strong>.<br><br>
+                 <strong>Anglais</strong><br>
+                 Mon apprentissage de l’anglais a débuté dès mon enfance. Ma passion pour cette langue a été renforcée par mon intérêt pour les séries télévisées en version originale, me permettant d’atteindre un niveau <strong>avancé</strong>.<br><br>
+                 <strong>Italien</strong><br>
+                 En classe de première et de terminale, j’ai choisi l’italien comme option. Cette langue m’a beaucoup inspiré et j’ai développé mes compétences grâce à une étude rigoureuse.<br><br>
+                 Ces apprentissages m’ont permis de développer une véritable passion pour les langues et m’ont aidé à communiquer avec des personnes de cultures diverses, enrichissant mes échanges et mes perspectives.
+             </p>
+             <div style="flex-direction: column;">
+                 <img class="crt" src="assets/images/dra.jpg" alt="Langues" style="width: 300px; height: 300px; top: 0;">
+             </div>
+         </div>
+     </div>
+ </div>
+ 
+          </div>
+      </section>
+      <script>
+          function toggleDescription(id) {
+    var description = document.getElementById(id);
+    var competence = description.parentElement;
+
+    // Masquer toutes les autres descriptions
+    var allDescriptions = document.querySelectorAll('.description');
+    allDescriptions.forEach(function(desc) {
+        if (desc !== description) {
+            desc.style.display = 'none';
+            desc.parentElement.classList.remove('active');
+        }
+    });
+
+    // Afficher ou masquer la description de la compétence cliquée
+    if (competence.classList.contains('active')) {
+        description.style.display = 'none';
+        competence.classList.remove('active');
+    } else {
+        description.style.display = 'block';
+        competence.classList.add('active');
+    }
+}
+      </script>
+
+     <!-- ==SECTION 5 - Mes projets== -->
+     <section class="section" id="mesProjet">
+          <!-- =MAIN TITLE= -->
+          <div class="title">
+               <h1 class="textTitle">Mes projets</h1>
+               <hr class="line">
+          </div>
+          <!-- =FIN MAIN TITLE= -->
+          <div class="container">
+               <!-- Liste des projets -->
+               <div class="sidebar">
+                   <div class="project-item" onclick="showContent('project-intro')"><h3><strong>Portfolio</strong> </div>
+                   <div class="project-item" onclick="showContent('project-sim')"><strong>Capsule vidéo</strong></div>
+               </div>
+       
+               <!-- Contenu des projets -->
+               <div class="content">
+                         <div id="default-content" style="font-weight: bold;text-align: center; font-size: 3rem;">
+                              <h1>Merci de sélectionner un projet parmi la liste</h1>
+                         </div>     
+                    <div id="project-intro" class="project-content">
+                    <div class="container">
+                         <div class="left">
+                              <div class="cardBloc">
+                                   <!-- =SECOND TITLE= -->
+                                   <div class="ssTitle">
+                                        <h1 class="textTitle">Documents</h1>
+                                        <hr class="line">
+                                   </div>
+                                   <!-- =FIN SECOND TITLE= -->
+               
+                                   <a href="https://mahjoubiahmed.github.io/portfolio/" target="_blank">
+                                        <button class="btnDownload"><img src="assets/icons/link.svg"
+                                             alt="icon de telechargement" >
+                                             Github - Portfolio</button>
+                                   </a>
+                              </div> 
+                              <div class="cardBloc">
+                                   <!-- =SECOND TITLE= -->
+                                   <div class="ssTitle">
+                                        <h1 class="textTitle">Information</h1>
+                                        <hr class="line">
+                                   </div>
+                                   <!-- =FIN SECOND TITLE= -->
+               
+                                   <ul class="lists">
+                                        <li>
+                                             <img src="assets/icons/cale.svg" alt="icon de calendrier" > 06/11/2024 - 02/01/2025
+                                        </li>
+                                   </ul>
+                              </div>
+                         </div>
+                         <div class="right">
+                              <!-- =SECOND TITLE= -->
+                              <div class="ssTitle">
+                                   <h1 class="textTitle">Contexte</h1>
+                                   <hr class="line">
+                              </div>
+                              <!-- =FIN SECOND TITLE= -->
+               
+                              <p class="rightParagraphe">
+                                   Lors de notre SAE14(situation d'apprentissage et d'évaluation), nous devions d'abord préparer notre C.V en indiquant nos formations,
+                                   centres d'intérêt, compétences, qualités et nos accomplissements pour, par la suite, créer notre
+                                   portfolio. Ce projet, que j'ai réalisé quasiment en autonomie à l'IUT et chez moi, m'a pris environ deux mois.
+                              </p>
+               
+                              <!-- =SECOND TITLE= -->
+                              <div class="ssTitle">
+                                   <h1 class="textTitle">Objectif</h1>
+                                   <hr class="line">
+                              </div>
+                              <!-- =FIN SECOND TITLE= -->
+               
+                              <p class="rightParagraphe">
+                                   L'objectif de ce portfolio est de présenter et de valoriser nos compétences et nos réalisations
+                                   afin
+                                   de les illustrer lors de nos candidatures à des alternances ou stages. Il permet aussi de mettre en avant nos
+                                   compétences et notre expérience et démontrer qu'on est le candidat idéal pour le poste.
+                                   <br><br>
+                                   L'objectif, aussi, est d'acquérir des compétences dans le domaine du web, en utilisant des
+                                   langages tels que HTML et CSS.
+                              </p>
+               
+                              <!-- =SECOND TITLE= -->
+                              <div class="ssTitle">
+                                   <h1 class="textTitle">Travail réalisé</h1>
+                                   <hr class="line">
+                              </div>
+                              <!-- =FIN SECOND TITLE= -->
+               
+                              <p class="rightParagraphe">
+                                   D’abord, j'ai commencé par élaborer mon CV, qui a servi pour la structure de mon site. J'ai ensuite créé plusieurs sections telles 
+                                   que "À propos de moi" et "Contact". En parallèle, j'ai travaillé sur la conception du design, en ajustant des photos pour qu'elles 
+                                   s'intègrent de manière cohérente au site. Cependant, j'ai rencontré des défis techniques, notamment pour concevoir un design unique 
+                                   et cohérent. Et grâce à ma créativité, j'ai su trouver des solutions innovantes pour harmoniser les couleurs et les animations. 
+                                   
+                              </p>
+               
+                              <!-- =SECOND TITLE= -->
+                              <div class="ssTitle">
+                                   <h1 class="textTitle">Résultat</h1>
+                                   <hr class="line">
+                              </div>
+                              <!-- =FIN SECOND TITLE= -->
+                              <p>
+                                   Cette expérience m'a permis de repousser les limites de mon imagination et de transformer des idées abstraites en expériences 
+                                   visuelles captivantes. Aujourd'hui, je suis capable de concevoir des sites web plus robustes et professionnels.
+                              </p>
+                              <table>
+                                   <thead>
+                                        <tr>
+                                             <th>Note</th>
+                                             <th>Moyenne de la classe</th>
+                                        </tr>
+                                   </thead>
+                                   <tbody>
+                                        <tr>
+                                             <td class="note">--</td>
+                                             <td class="note">--</td>
+                                        </tr>
+                                   </tbody>
+                              </table>
+                         </div>
+                    </div>
+               </div>
+
+               <div id="project-sim" class="project-content">
+                    <div class="container">
+                         <div class="left">
+                              <div class="cardBloc">
+                                   <!-- =SECOND TITLE= -->
+                                   <div class="ssTitle">
+                                        <h1 class="textTitle">Documents</h1>
+                                        <hr class="line">
+                                   </div>
+                                   <!-- =FIN SECOND TITLE= -->
+               
+                                   <a href="" target="_blank">
+                                        <button class="btnDownload"><img src="assets/icons/link.svg"
+                                             alt="icon de telechargement" >
+                                             Youtube - Capsule</button>
+                                   </a>
+                              </div> 
+                              <div class="cardBloc">
+                                   <!-- =SECOND TITLE= -->
+                                   <div class="ssTitle">
+                                        <h1 class="textTitle">Information</h1>
+                                        <hr class="line">
+                                   </div>
+                                   <!-- =FIN SECOND TITLE= -->
+               
+                                   <ul class="lists">
+                                        <li>
+                                             <img src="assets/icons/cale.svg" alt="icon de calendrier" > 10/12/2024 - 23/01/2025
+                                        </li>
+                                   </ul>
+                              </div>
+                         </div>
+                         <div class="right">
+                              <!-- =SECOND TITLE= -->
+                              <div class="ssTitle">
+                                   <h1 class="textTitle">Contexte</h1>
+                                   <hr class="line">
+                              </div>
+                              <!-- =FIN SECOND TITLE= -->
+               
+                              <p class="rightParagraphe">
+                                   Pendant les séances de PPP (Projet Personnel et Professionnel), nous avons travaillé sur la création d’une capsule vidéo pour nous présenter, expliquer pourquoi nous avons choisi notre formation, en détailler les atouts, et partager ce que nous avons acquis durant le premier semestre.J'ai réalisé ce projet quasiment en autonomie à l'IUT et chez moi et il m'a pris environ un mois.
+                              </p>
+               
+                              <!-- =SECOND TITLE= -->
+                              <div class="ssTitle">
+                                   <h1 class="textTitle">Objectif</h1>
+                                   <hr class="line">
+                              </div>
+                              <!-- =FIN SECOND TITLE= -->
+               
+                              <p class="rightParagraphe">
+                                   L’objectif principal de cette capsule est de valoriser nos compétences et notre parcours tout en illustrant notre capacité à nous exprimer de manière claire et concise. Elle pourra être utilisée dans le cadre de candidatures à des stages ou alternances, permettant de démontrer notre sérieux, notre engagement et notre maîtrise des outils numériques. 
+                                   <br><br>
+                                   Ce projet a aussi pour but de nous initier à des techniques de création vidéo, notamment l’écriture de scripts, le choix des visuels, et le montage, afin d’améliorer notre polyvalence.
+                              </p>
+               
+                              <!-- =SECOND TITLE= -->
+                              <div class="ssTitle">
+                                   <h1 class="textTitle">Travail réalisé</h1>
+                                   <hr class="line">
+                              </div>
+                              <!-- =FIN SECOND TITLE= -->
+               
+                              <p class="rightParagraphe">
+                                   Pour réaliser ce projet, j’ai commencé par rédiger le script de la vidéo, en organisant mes idées pour présenter clairement mes motivations, les avantages de ma formation en BUT Réseaux et Télécommunications, ainsi que les compétences et connaissances acquises au cours du premier semestre. J’ai ensuite sélectionné les illustrations et visuels que je souhaitais intégrer pour rendre la vidéo plus dynamique et engageante.
+                                   Afin de monter la vidéo, j’ai appris les bases du montage en utilisant des tutoriels sur YouTube, ce qui m’a permis de me familiariser avec des logiciels simples mais efficaces. Cependant, j’ai rencontré plusieurs difficultés, notamment pour synchroniser les paroles avec les images, ce qui m’a demandé plusieurs essais et ajustements. Bien que le projet ne soit pas encore terminé, il constitue une excellente opportunité pour développer mes compétences en gestion de contenu multimédia et en montage vidéo.
+                              </p>
+               
+                              <!-- =SECOND TITLE= -->
+                              <div class="ssTitle">
+                                   <h1 class="textTitle">Résultat</h1>
+                                   <hr class="line">
+                              </div>
+                              <!-- =FIN SECOND TITLE= -->
+                              <p>
+                                   Ce travail m’aide à monter en compétences dans plusieurs domaines : structuration des idées, création visuelle, et techniques de montage. Malgré les défis rencontrés, je suis convaincu que ce projet me permettra de produire une vidéo claire et professionnelle, reflétant mon sérieux et mes aspirations dans le cadre de ma formation et de mes projets futurs.
+                              </p>
+                              <table>
+                                   <thead>
+                                        <tr>
+                                             <th>Note</th>
+                                             <th>Moyenne de la classe</th>
+                                        </tr>
+                                   </thead>
+                                   <tbody>
+                                        <tr>
+                                             <td class="note">--</td>
+                                             <td class="note">--</td>
+                                        </tr>
+                                   </tbody>
+                              </table>
+                         </div>
+                    </div>
+               </div>
+               </div>
+          </div>
+          <script>
+               function showContent(projectId) {
+    // Masquer tous les contenus des projets
+    const contents = document.querySelectorAll('.project-content');
+    contents.forEach(content => {
+        content.style.display = 'none';
+    });
+
+    // Masquer le contenu par défaut
+    const defaultContent = document.getElementById('default-content');
+    if (defaultContent) {
+        defaultContent.style.display = 'none';
+    }
+
+    // Afficher le contenu du projet sélectionné
+    const selectedContent = document.getElementById(projectId);
+    if (selectedContent) {
+        selectedContent.style.display = 'block';
+    }
+}
+           </script>
+     </section>
+     <!-- ==FIN SECTION 5 - Mes projets== -->
+
+     
+
+     <!-- ==SECTION 6 - Divers== -->
+     <section class="section" id="divers">
+          <!-- =MAIN TITLE= -->
+          <div class="title">
+               <h1 class="textTitle">Divers</h1>
+               <hr class="line">
+          </div>
+          <!-- =FIN MAIN TITLE= -->
+
+          <div class="divers">
+
+               <div class="diver">
+                    <p class="diverTitle">
+                         🤝Bénévolat🤝
+                    </p>
+
+                    <div class="containerDiver">
+                         <p class="diverParagraphe">
+                              En 2023/2024, j'étais un bénévole au sein du <strong>Croissant Rouge Tunisien</strong> et j'ai participé à plusieurs actions renforçant ainsi mes capacités en <strong>organisation</strong> et en <strong>communication</strong>. <br>
+                         </p>
+                         <img class="crt" src="assets/images/crt.png" alt="buche"
+                         style="transform: rotate(0deg); width: 150px; height: auto;">
+                    </div>
+               </div>
+
+               <div class="diver">
+                    <p class="diverTitle">
+                         🥋Karaté🥋
+                    </p>
+                    <div class="containerDiver">
+                         <p class="diverParagraphe">
+                              Pratiquant de karaté pendant 2 ans au sein de <strong>L'Avenir Sportif El Alia</strong>, 
+                              j'ai obtenu la ceinture bleue, témoignant de <strong>discipline et de persévérance</strong>.
+                         </p>
+                         <img class="kara" src="assets/images/kara.png" alt="buche"
+                         style="transform: rotate(0deg); width: 150px; height: auto;float: right;">
+                    </div>
+               </div>
+
+               <div class="diver">
+                    <p class="diverTitle">
+                         ⚽Football⚽
+                    </p>
+
+                    <div class="containerDiver">
+                         <p class="diverParagraphe">
+                              En 2018, j'étais le capitaine d'équipe de football, au club <strong> El Alia Sport,</strong> avec des compétences développées en <strong>leadership</strong> et en <strong>travail d'équipe</strong>.
+                         </p>
+                         <img class="illCuisine" src="assets/images/alia.png" alt="buche">
+                    </div>
+               </div>
+               <div class="diver">
+                    <p class="diverTitle">
+                         💪Musculation💪
+                    </p>
+
+                    <div class="containerDiver">
+                         <p class="diverParagraphe">
+                              Abonné à <strong>Basic-Fit</strong> depuis Septembre 2024 pour la pratique régulière (4 fois par semaine) de la<strong>musculation</strong>  et le maintien <strong>d'une bonne condition physique</strong>.  
+                         </p>
+                         <img class="illCuisine" src="assets/images/basic-fit.png" alt="buche">
+                    </div>
+               </div>
+          </div>
+     </section>
+     <!-- ==FIN SECTION 6 - Divers== -->
+
+     <!-- ==SECTION 7 - Mon C.V== -->
+     <section class="section" id="cv">
+          <!-- =MAIN TITLE= -->
+          <div class="title">
+               <h1 class="textTitle">Mon C.V</h1>
+               <hr class="line">
+          </div>
+          <!-- =FIN MAIN TITLE= -->
+
+          <div class="containerCv">
+               <img class="cv" src="assets/images/cv.png" alt="C.V">
+               <a href="assets/documents/cv.pdf" download="assets/documents/CV.pdf"
+                    target="_blank">
+                    <button class="btn">Télécharger CV</button>
+               </a>
+          </div>
+     </section>
+     <!-- ==FIN SECTION 7 - Mon C.V== -->
+
+     <!-- ==SECTION 8 - Me contacter== -->
+     <section class="section" id="meContacter">
+          <!-- =MAIN TITLE= -->
+          <div class="title">
+               <h1 class="textTitle">Me contacter</h1>
+               <hr class="line">
+          </div>
+          <!-- =FIN MAIN TITLE= -->
+
+          <div class="messageContact">
+               <p class="textMessage">N'hésitez pas de me contacter pour tout renseignement
+                    complémentaire :
+               </p>
+          </div>
+
+          <ul class="contacts">
+               <li class="contact">
+                    <div class="contactContainerText">
+                         <img src="assets/icons/mail.png" alt="icone de mail" style="width: 30px; height: auto">
+                         <p class="contactText">E-mail</p>
+                    </div>
+
+                    <p class="informationContact">Ahmed.MAHJOUBI@etu.uca.fr</p>
+               </li>
+
+               <li class="contact">
+                    <div class="contactContainerText">
+                         <img src="assets/icons/res.jpg" alt="icone de res" style="width: 30px; height: auto">
+                         <p class="contactText">Réseaux Sociaux</p>
+                    </div>
+
+                    <div class="networkSocial">
+                         <a href="https://www.linkedin.com/in/ahmed-mahjoubi/" target="_blank">
+                              <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                   xmlns="http://www.w3.org/2000/svg">
+                                   <rect x="2" y="2" width="28" height="28" rx="14" fill="#1275B1" />
+                                   <path d="M12.6186 9.69215C12.6186 10.6267 11.8085 11.3843 10.8093 11.3843C9.81004 11.3843 9 10.6267 9 9.69215C9 8.7576 9.81004 8 10.8093 8C11.8085 8 12.6186 8.7576 12.6186 9.69215Z"
+                                        fill="white" />
+                                   <path d="M9.24742 12.6281H12.3402V22H9.24742V12.6281Z" fill="white" />
+                                   <path d="M17.3196 12.6281H14.2268V22H17.3196C17.3196 22 17.3196 19.0496 17.3196 17.2049C17.3196 16.0976 17.6977 14.9855 19.2062 14.9855C20.911 14.9855 20.9008 16.4345 20.8928 17.5571C20.8824 19.0244 20.9072 20.5219 20.9072 22H24V17.0537C23.9738 13.8954 23.1508 12.4401 20.4433 12.4401C18.8354 12.4401 17.8387 13.1701 17.3196 13.8305V12.6281Z"
+                                        fill="white" />     
+                              </svg>
+                         </a>
+
+                         <a href="https://github.com/settings/profile" target="_blank">
+                              <svg width="32" height="32" viewBox="0 0 48 48" fill="none"
+                                   xmlns="http://www.w3.org/2000/svg">
+                                   <g clip-path="url(#clip0_910_21)">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                             d="M24.0199 0C10.7375 0 0 10.8167 0 24.1983C0 34.895 6.87988 43.9495 16.4241 47.1542C17.6174 47.3951 18.0545 46.6335 18.0545 45.9929C18.0545 45.4319 18.0151 43.509 18.0151 41.5055C11.3334 42.948 9.94198 38.6209 9.94198 38.6209C8.86818 35.8164 7.27715 35.0956 7.27715 35.0956C5.09022 33.6132 7.43645 33.6132 7.43645 33.6132C9.86233 33.7735 11.1353 36.0971 11.1353 36.0971C13.2824 39.7827 16.7422 38.7413 18.1341 38.1002C18.3328 36.5377 18.9695 35.456 19.6455 34.8552C14.3163 34.2942 8.70937 32.211 8.70937 22.9161C8.70937 20.2719 9.66321 18.1086 11.1746 16.4261C10.9361 15.8253 10.1008 13.3409 11.4135 10.0157C11.4135 10.0157 13.4417 9.3746 18.0146 12.4996C19.9725 11.9699 21.9916 11.7005 24.0199 11.6982C26.048 11.6982 28.1154 11.979 30.0246 12.4996C34.5981 9.3746 36.6262 10.0157 36.6262 10.0157C37.9389 13.3409 37.1031 15.8253 36.8646 16.4261C38.4158 18.1086 39.3303 20.2719 39.3303 22.9161C39.3303 32.211 33.7234 34.2539 28.3544 34.8552C29.2296 35.6163 29.9848 37.0583 29.9848 39.3421C29.9848 42.5871 29.9454 45.1915 29.9454 45.9924C29.9454 46.6335 30.383 47.3951 31.5758 47.1547C41.12 43.9491 47.9999 34.895 47.9999 24.1983C48.0392 10.8167 37.2624 0 24.0199 0Z"
+                                             fill="#24292F" />
+                                   </g>
+                                   <defs>
+                                        <clipPath id="clip0_910_21">
+                                             <rect width="48" height="48" fill="white" />
+                                        </clipPath>
+                                   </defs>
+                              </svg>
+                         </a>
+                    </div>
+               </li>
+          </ul>
+     </section>
+     <!-- ==FIN SECTION 8 - Me contacter== -->
+
+     <!-- ==FOOTER== -->
+     <footer class="footer">
+          <img class="logo" src="assets/icons/ma.png" alt="logo name">
+          <div class="textFooter">
+               <p class="textMessage">Portfolio conçu avec passion et créativité</p>
+               <p class="copyright">© 2025 Mahjoubi Ahmed</p>
+          </div>
+     </footer>
+     <!-- ==FIN FOOTER== -->
+</body>
+</html>
